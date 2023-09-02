@@ -1,0 +1,441 @@
+.error {
+    color: red;
+    font-size: 14px;
+}
+.logo>img{
+    width: 145px;
+}
+.logo{
+    padding-left: 40px;
+}
+.container_web{
+    background-color: rgb(210, 178, 131);
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* .menu-web{
+    padding-left: 80px;
+} */
+.menu-web>ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.menu-web>ul>li{
+    font-size: 20px;
+    list-style: none;
+}
+.menu-web>ul>li>a{
+    text-decoration: none;
+    color: black;
+    
+}
+.menu-web>ul>li>a:hover{
+    color: red;
+}
+.products{
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+.products_new{
+    width: 1246px;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+.post_new{
+    width: 1246px;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+.post_new_post{
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+.post_new_post>.new{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.post_new_post>.new>figure>img{
+    width: 100%;
+    height: auto;
+}
+.post_new_post>.new>figure{
+    padding: 0px;
+    margin: 0px;
+    height: 200px;
+    overflow: hidden;
+}
+.pro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pro>figure>img{
+    width: 100%;
+    height: 200px;
+}
+.pro>figure{
+    padding: 0px;
+    margin: 0px;
+    height: 200px;
+    overflow: hidden;
+}
+.pro>h4{
+    margin-bottom: 0px;
+}
+.form_login{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.form_login>ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.form_login>ul>li>a{
+    color: #0fa79f;
+    text-decoration: none;
+}
+.form_login>ul>li{
+    font-size: 18px;
+    list-style: none;
+}
+.alter_form_list{
+    width: 1024px;
+    margin: 0px auto;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.alter_form_list>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.alter_form_list>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+.alter_form_list>ul>li{
+    list-style: none;
+}
+
+.form_add{
+    width: 1024px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.input_sub{
+    width: 50%;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.form_title{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.des_des{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0px 20px
+}
+
+.logout{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #c80f0f;
+    border: 1px solid #c80f0f;
+    color: #F9FBE7;
+}
+.admin{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price_pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+footer{
+    background-color: rgb(210, 178, 131);
+    height: 200px;
+    display: grid;
+    padding: 0px 100px;
+    margin-top: 100px;
+}
+
+.container_footer{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contact_web>.image_logo>img{
+    width: 145px;
+}
+
+.form_input_footer{
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    height: 30px;
+    width: 50%;
+}
+
+.form_input_sub{
+    margin-top: 10px;
+    border: 1px solid #4f9b55;
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
+    background-color: #4f9b55;
+}
+
+.form_footer_gap{
+    margin-top: 10px;
+}
+
+.form_footer>h4{
+    margin-bottom: 5px;
+}
+
+
+*{box-sizing: border-box; -webkit-box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; font: 16px/1.3 sans-serif; }
+
+
+.CSSgal {
+    position: relative;
+    overflow: hidden;
+    height: 100%; /* Or set a fixed height */
+}
+
+/* SLIDER */
+
+.CSSgal .slider {
+    height: 100%;
+    white-space: nowrap;
+    font-size: 0;
+    transition: 0.8s;
+}
+
+/* SLIDES */
+
+.CSSgal .slider > * {
+    font-size: 1rem;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+    background: none 50% no-repeat;
+    background-size: cover;
+}
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
+.CSSgal .prevNext {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    width: 100%;
+    height: 0;
+}
+
+.CSSgal .prevNext > div+div {
+    visibility: hidden; /* Hide all but first P/N container */
+}
+
+.CSSgal .prevNext a {
+    background: #fff;
+    position: absolute;
+    width:       60px;
+    height:      60px;
+    line-height: 60px; /* If you want to place numbers */
+    text-align: center;
+    opacity: 0.7;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+}
+.CSSgal .prevNext a:hover {
+    opacity: 1;
+}
+.CSSgal .prevNext a+a {
+    left: auto;
+    right: 0;
+}
+
+/* NAVIGATION */
+
+.CSSgal .bullets {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+.CSSgal .bullets > a {
+    display: inline-block;
+    width:       30px;
+    height:      30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.CSSgal .bullets > a+a {
+    background: rgba(255, 255, 255, 0.5); /* Dim all but first */
+}
+.CSSgal .bullets > a:hover {
+    background: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
+/* ACTIVE */
+#s1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1);}
+#s2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1);}
+#s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
+#s4:target ~ .bullets >*:nth-child(4) {background: rgba(255, 255, 255,   1);}
+/* More slides? Add here more rules */
+
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
+/* ACTIVE: */
+#s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+#s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+#s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+#s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+/* More slides? Add here more rules */
+
+/* SLIDER ANIMATION POSITIONS */
+
+#s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+/* More slides? Add here more rules */
+
+
+/* YOU'RE THE DESIGNER!
+   ____________________
+   All above was mainly to get it working :)
+   CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+
+.CSSgal{
+    color: #fff;
+    text-align: center;
+}
+.CSSgal .slider h2 {
+    margin-top: 40vh;
+    font-weight: 200;
+    letter-spacing: -0.06em;
+    word-spacing: 0.2em;
+    font-size: 3em;
+}
+.CSSgal a {
+    border-radius: 50%;
+    margin: 0 3px;
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+}
+.slider>div{
+    height: 445px !important;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: none;
+}
+
+.products_buy_detail{
+    width: 1246px;
+    margin: 0px auto;
+}
+
+.btn_add_detail{
+    background-color: #7251a3;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #7251a3;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.imag_add_btn{
+    display: flex;
+    gap: 3rem;
+}
+
+.search{
+    height: 30px;
+    border-radius: 5px;
+    width: 70%;
+    border: 1px solid #b6b6aa;
+}
+
+.tim_kiem{
+    font-size: 13px;
+}
+.tim_kiem>button{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #e9b7b7;
+    background-color: #de2f2f;
+    color: #fff;
+    margin-left: 3px;
+}
